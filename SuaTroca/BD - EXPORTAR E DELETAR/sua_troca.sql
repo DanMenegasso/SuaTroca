@@ -3,8 +3,8 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 22-Maio-2016 às 23:16
--- Versão do servidor: 5.6.17
+-- Generation Time: 22-Maio-2016 Ã s 23:33
+-- VersÃ£o do servidor: 5.6.17
 -- PHP Version: 5.5.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -38,23 +38,6 @@ CREATE TABLE IF NOT EXISTS `mercadoria` (
   KEY `fk_Mercadoria_TipoMercadoria_idx` (`idTipoMercadoria`),
   KEY `fk_Mercadoria_TipoNegocio1_idx` (`idTipoNegocio`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=21 ;
-
---
--- Extraindo dados da tabela `mercadoria`
---
-
-INSERT INTO `mercadoria` (`idMercadoria`, `Nome`, `Qtde`, `Preco`, `Descricao`, `idTipoMercadoria`, `idTipoNegocio`) VALUES
-(10, 'Matheus', 52, '6589.00', 'GAY', 3, 1),
-(11, 'TESTE', 8, '548.00', 'TESTE', 2, 0),
-(12, 'Daniel', 1, '9999.00', 'menino pseudo gay', 2, 1),
-(13, 'teste', 343, '12323.00', 'TESTE', 13, 1),
-(14, 'teste', 343, '12323.00', 'TESTE', 13, 1),
-(15, 'teste', 343, '12323.00', 'TESTE', 13, 1),
-(16, 'teste', 343, '12323.00', 'TESTE', 13, 1),
-(17, 'teste', 343, '12323.00', 'TESTE', 13, 1),
-(18, 'teste', 343, '12323.00', 'TESTE', 13, 1),
-(19, 'teste', 343, '12323.00', 'TESTE', 13, 1),
-(20, 'daniel', 1, '999999.99', 'GAY', 14, 1);
 
 -- --------------------------------------------------------
 
